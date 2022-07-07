@@ -17,8 +17,15 @@ git rm      git commit -m   彻底删除
 
 -----------------------远程-----------------------
 ssh-keygen -t rsa -C "youremail@example.com" 创建钥匙
-git remote add 本地库名 git@gitgub.com:gavin788/day
+git remote add 本地库名 git@gitgub.com:Ybeter/day.git
 git push -u origin master
 git remote rm 
 git remote -v
 git clone 
+-----------------------分支-----------------------
+git checkout -b 分支名  ==  git branch dev 和git checkout dev 的合并
+git branch 列出当前所有分支
+git checkout 分支名  切换HEAD指向
+git merge 分支名 合并指定分支到当前分支 
+git switch -c 分支名 创建并转到该分支
+git switch 分支名 切换到已有分支
