@@ -1,0 +1,24 @@
+git config --global user.name  xxx
+git config --global user.email  xxxxxxxxxxxx
+-----------------------本地-----------------------
+git add filenames添加文件
+git commit -m "内容" 添加更改说明
+git status  查看修改结果，时刻掌握仓库当前状态
+git diff filenames 查看修改内容
+git log 查看历史记录
+        --pretty=oneline  一行代表一个快照
+git reset --hard HEAD^ 退回以前版本（退回哪一个看^多少）
+                 版本号（commit id)
+        HEAD filename 撤销git add
+git reflog 后悔药，找回以前版本号 记录输入的每一次命令
+git restore xxx 撤回上一步(丢弃工作区的修改)
+rm xxx删除文件   如果文件提交库中可以用 git restore 恢复
+git rm      git commit -m   彻底删除
+
+-----------------------远程-----------------------
+ssh-keygen -t rsa -C "youremail@example.com" 创建钥匙
+git remote add 本地库名 git@gitgub.com:gavin788/day
+git push -u origin master
+git remote rm 
+git remote -v
+git clone 
