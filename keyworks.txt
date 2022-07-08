@@ -35,4 +35,6 @@ git merge --on-ff -m "说明" 分支名
 git stash 储存当前工作区
 git stash list 查看存储工作区
 git stash apply  +git stash drop  回复工作区+删除
+ git stash apply stash@{0} 利用git stash list 查看多个待回复区，选择一个
 git stash pop 回复工作区+删除
+git cherry-pick <commit>    复制一个特定的提交到当前分支
