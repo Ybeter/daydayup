@@ -31,4 +31,4 @@ git switch -c 分支名 创建并转到该分支
 git switch 分支名 切换到已有分支
 git log --graph --pretty=oneline --abbrev-commit 分支情况
 git log --graph  
-git branch --on-ff -m "说明" 分支名
+git merge --on-ff -m "说明" 分支名
