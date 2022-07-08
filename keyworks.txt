@@ -32,3 +32,7 @@ git switch 分支名 切换到已有分支
 git log --graph --pretty=oneline --abbrev-commit 分支情况
 git log --graph  
 git merge --on-ff -m "说明" 分支名
+git stash 储存当前工作区
+git stash list 查看存储工作区
+git stash apply  +git stash drop  回复工作区+删除
+git stash pop 回复工作区+删除
