@@ -39,3 +39,4 @@ git stash apply  +git stash drop  回复工作区+删除
 git stash pop 回复工作区+删除
 git cherry-pick <commit>    复制一个特定的提交到当前分支
 git branch -d/D 分支名   删除分支，大写D即使未合并分支也删除
+git checkout -b 分支名 远程库名/远程库分支名
